@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.parallax{
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.p1{
+     background-image: url('bg2.jpg');
+}
+.p2 {
+  background-image: url('bg1.jpg');
+}
+.content {
+    width: 60%;
+    background-color: rgba(21, 21, 21, 0.434);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    text-align: center;
+    padding: 50px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+.content:hover {
+    background-color:rgba(247, 239, 239, 0.434);
+    color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
